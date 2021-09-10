@@ -7,4 +7,3 @@ def get_logger(name: str, debug: bool = False) -> logging.Logger:
     logger.setLevel(level=level)
 
     return logger
-
